@@ -1,14 +1,9 @@
-//
-//  main.c
-//  Last Edit: 7/21/15
-//
-//  termios : serial i/o with /dev/tty##
-//
+//  7/2015
 //  Created by Asher Martin <ashermartin@gmail.com>
 //  Help: https://en.wikibooks.org/wiki/Serial_Programming/termios
 //
 //  Usage:
-//    1. "gcc -o term main.c"
+//    1. "gcc -o term termios.c"
 //    2. "./term /dev/ttys000"
 //    3. "echo "hi" > /dev/ttys000"
 //    4. then to quit type "q"
